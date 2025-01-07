@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration Successful"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="20dp"
+        />
+
+    <TextView
+        android:id="@+id/detailsinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Details are Submitted succesfully"
+        android:alpha="0.7"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Name :"
+        android:textSize="25sp"
+        android:gravity="left"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/nameOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:textSize="20sp"
+        android:gravity="left"
+        />
+
+    <TextView
+        android:id="@+id/date2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User BirthDate :"
+        android:textSize="25sp"
+        android:gravity="left"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/dateOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textSize="20sp"
+        android:gravity="left"
+        />
+
+    <TextView
+        android:id="@+id/email2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User email Id :"
+        android:textSize="25sp"
+        android:gravity="left"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/emailOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:textSize="20sp"
+        android:gravity="left"
+        />
+
+</LinearLayout>
